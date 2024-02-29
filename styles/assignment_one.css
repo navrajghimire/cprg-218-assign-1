@@ -13,6 +13,9 @@
   }
 }
 
+
+
+
 /* Tablet (min-width: 768px): 2 × 4 (50% width cards, last card is full width) */
 @media only screen and (min-width: 768px) {
   .card-container {
@@ -32,6 +35,8 @@
   }
 }
 
+
+
 /* Desktop (min-width: 1200px): 3 × 3 (33% width cards) */
 @media only screen and (min-width: 1200px) {
   .card-container {
@@ -42,10 +47,14 @@
   }
   
   .card:nth-child(9) {
-    width: calc(33.33% + 255px); /* to alter the monkey image size */
+    width: calc(33.33% + 33%); /* to adjust monkey image size */
     grid-column: auto; 
   }
 }
+
+
+
+
 
 .subheader {
   color: grey;
@@ -64,3 +73,5 @@ ul {
 .card-container > * {
   margin-bottom: 10px;
 }
+
+
